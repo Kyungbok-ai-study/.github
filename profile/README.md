@@ -161,5 +161,3 @@ Resolves: #123
 Ref: #456
 Related to: #48, #45</td></table></div>
 
-
-![image](https://github.com/user-attachments/assets/d4f5fee0-8bb2-4eac-8df5-eb74911a8a62)
