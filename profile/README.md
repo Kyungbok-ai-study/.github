@@ -162,23 +162,4 @@ Ref: #456
 Related to: #48, #45</td></table></div>
 
 
-graph TD
-    A["프론트엔드<br/>(React/Vue)"] --> B["FastAPI 백엔드<br/>(Python)"]
-    
-    B --> C["PostgreSQL<br/>(일반형 데이터)"]
-    B --> D["Qdrant<br/>(벡터 DB)"]
-    B --> E["DeepSeek<br/>(로컬 AI)"]
-    B --> F["Gemini API<br/>(PDF 파서)"]
-    
-    C --> G["• 문제 데이터<br/>• 사용자 정보<br/>• 승인 상태<br/>• 메타데이터"]
-    D --> H["• 임베딩 벡터<br/>• RAG 검색<br/>• 유사도 매칭"]
-    E --> I["• 문제 생성<br/>• 난이도 분류<br/>• 해설 생성<br/>• 개인맞춤"]
-    F --> J["• PDF 텍스트 추출<br/>• 구조화 파싱<br/>• 라벨링 지원"]
-    
-    K["워크플로우"] --> L["1. 문서 업로드"]
-    L --> M["2. Gemini 파싱"]
-    M --> N["3. JSON 저장"]
-    N --> O["4. PostgreSQL 1차"]
-    O --> P["5. 교수 승인"]
-    P --> Q["6. DeepSeek 분류"]
-    Q --> R["7. Qdrant 벡터저장"]
+![image](https://github.com/user-attachments/assets/d4f5fee0-8bb2-4eac-8df5-eb74911a8a62)
